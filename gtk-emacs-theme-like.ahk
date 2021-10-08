@@ -322,3 +322,15 @@ is_target()
   Else
     Send ^a
   Return
+
+;
+; <ctrl><shift>w
+; ctrl-w
+;
++^w::
+  If is_target()
+    Send %A_ThisHotkey%
+  Else
+    Send ^w
+  Return
+  

@@ -1,5 +1,5 @@
 # gtk-emacs-theme-like.ahk 
-This tiny script allows you to use the gtk-emacs-key-theme like bindings on Windows, which is written in AutoHotkey (AHK) language. This script forked from lintaro-jp/gtk-emacs-theme-like.ahk. Only modification is to change C-k and C-u function.
+This tiny script allows you to use the gtk-emacs-key-theme like bindings on Windows, which is written in AutoHotkey (AHK) language. This script forked from lintaro-jp/gtk-emacs-theme-like.ahk. Only modification is to change C-k and C-u function and C-M-W
 
 ## Supported keybindings
 <table>
@@ -107,5 +107,8 @@ This tiny script allows you to use the gtk-emacs-key-theme like bindings on Wind
 <td>Ctrl+\</td>
 <td>select all</td>
 </tr>
+<tr>
+<td>Ctrl+Shift+w</td>
+<td>Send Ctrl-w</td>
+<tr>
 </table>
-
