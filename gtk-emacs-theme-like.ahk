@@ -268,8 +268,9 @@ is_target()
   Else
     Send {ShiftDown}{END}{SHIFTUP}
     Sleep 50
-    Send {Del}
-    ;Send ^x
+    ;Send {Del} 
+    ; Modified to change c-k behaiviour
+    Send ^x
   Return
 
 ;
@@ -283,8 +284,9 @@ is_target()
   {
     Send {ShiftDown}{HOME}{SHIFTUP}
     Sleep 50
-    Send {Del}
-    ;Send ^x
+    ;Send {Del}
+    ; Modified to change c-u behaiviour
+    Send ^x
   }
   Return
 
