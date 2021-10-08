@@ -1,5 +1,5 @@
 # gtk-emacs-theme-like.ahk 
-This tiny script allows you to use the gtk-emacs-key-theme like bindings on Windows, which is written in AutoHotkey (AHK) language. This script forked from usi3's emacs.ahk.
+This tiny script allows you to use the gtk-emacs-key-theme like bindings on Windows, which is written in AutoHotkey (AHK) language. This script forked from lintaro-jp/gtk-emacs-theme-like.ahk. Only modification is to change C-k and C-u function.
 
 ## Supported keybindings
 <table>
@@ -89,11 +89,11 @@ This tiny script allows you to use the gtk-emacs-key-theme like bindings on Wind
 </tr>
 <tr>
 <td>Ctrl+K</td>
-<td>delete chars from cursor to end of line</td>
+<td>kill line</td>
 </tr>
 <tr>
 <td>Ctrl+U</td>
-<td>delete chars from cursor to beginning of line</td>
+<td>kill line from cursor to beginning of the line</td>
 </tr>
 <tr>
 <td>Ctrl+M</td>
